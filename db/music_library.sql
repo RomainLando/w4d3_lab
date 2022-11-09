@@ -1,9 +1,9 @@
-DROP TABLE IF EXISTS artists;
 DROP TABLE IF EXISTS albums;
+DROP TABLE IF EXISTS artists;
 
 CREATE TABLE artists (
     id SERIAL PRIMARY KEY, 
-    name VARCHAR(255)
+    full_name VARCHAR(255)
 );
 
 CREATE TABLE albums (
@@ -13,3 +13,11 @@ CREATE TABLE albums (
     artist_id INT REFERENCES artists(id)
 );
 
+INSERT INTO artists (full_name) 
+VALUES ('Chance The Rapper');
+
+INSERT INTO artists (full_name) 
+VALUES ('Lady Gaga');
+
+INSERT INTO artists (full_name) 
+VALUES ('Keith Richards');
