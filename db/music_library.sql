@@ -21,3 +21,19 @@ VALUES ('Lady Gaga');
 
 INSERT INTO artists (full_name) 
 VALUES ('Keith Richards');
+
+
+INSERT INTO albums (title, genre, artist_id)
+VALUES ("Coloring Book", "Hip-Hop", 1)
+INSERT INTO albums (title, genre, artist_id)
+VALUES ("Acid Rap", "Hip-Hop", 1)
+
+INSERT INTO albums (title, genre, artist_id)
+VALUES ("The Fame", "Pop", 2)
+INSERT INTO albums (title, genre, artist_id)
+VALUES ("Chromatic", "Pop", 2)
+
+INSERT INTO albums (title, genre, artist_id)
+VALUES ("Vintage Viins", "Rock", 3)
+INSERT INTO albums (title, genre, artist_id)
+VALUES ("Crosseyed Heart", "Rock", 3)
